@@ -13,13 +13,13 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I am a Full Stack Developer!
           </h2>
-          <p classname="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md">
             I have almost one year of experiece creating and designing software.
             Currently, I get the most passionate about using specific
             technologies such as React, Tailwind, NodeJs, and MYSQL.
           </p>
           <div>
-            <button classname="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-pink-800 cursor-pointer text-white">
+            <button className="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 to-green-800 cursor-pointer text-white">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
