@@ -68,4 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # PortfolioV2.0
+
+  ## Licensing:
+  [![license](https://img.shields.io/badge/license-None-blue)](https://shields.io)
+
+  ## Description:
+  - This is my personal portfolio created primarily with React, JavaScript, and Tailwind CSS. You can find the website link below for your viewing purposes!
+  
+  ## Screenshots
+  ![image](https://user-images.githubusercontent.com/103614767/189991989-a1fd3c9f-9aef-4052-a832-9fe167fd4eeb.png)
+
+  ## Website:
+  https://phenomenal-kashata-91cfa5.netlify.app/
+
+  ## Additional Info:
+  - Github: [trevorbos](https://github.com/trevorbos)
+  - Email: trevor.bos@outlook.com 
+
+  ## Project:
+  Made with fingers and a keyboard by Trevor Bos 🖐️
