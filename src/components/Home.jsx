@@ -19,7 +19,7 @@ const Home = () => {
             technologies such as React, Tailwind, NodeJs, and MYSQL.
           </p>
           <div>
-            <button classname="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-pink-800 cursor-pointer">
+            <button classname="group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-pink-800 cursor-pointer text-white">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
