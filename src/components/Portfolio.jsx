@@ -12,37 +12,43 @@ const Portfolio = () => {
       id: 1,
       src: gitAJob,
       demoLink: "https://peaceful-reef-41407.herokuapp.com/",
-      codeLink: "https://github.com/TrevorBos/Git-A-Job"
+      codeLink: "https://github.com/TrevorBos/Git-A-Job",
+      title: "GitAJob"
     },
     {
       id: 2,
       src: eatDrinkRelax,
       demoLink: "https://trevorbos.github.io/EatDrinkRelax/",
-      codeLink: "https://github.com/TrevorBos/EatDrinkRelax"
+      codeLink: "https://github.com/TrevorBos/EatDrinkRelax",
+      title: "Eat Drink Relax"
     },
     {
       id: 3,
       src: techBlog,
       demoLink: "https://stark-ocean-65719.herokuapp.com/",
-      codeLink: "https://github.com/TrevorBos/Tech-Blog"
+      codeLink: "https://github.com/TrevorBos/Tech-Blog",
+      title: "Tech Blog"
     },
     {
       id: 4,
       src: taskinator,
       demoLink: "https://trevorbos.github.io/Taskinator/",
-      codeLink: "https://github.com/TrevorBos/Taskinator"
+      codeLink: "https://github.com/TrevorBos/Taskinator",
+      title: "Taskinator"
     },
     {
       id: 5,
       src: weatherDashboard,
       demoLink: "https://trevorbos.github.io/Weather-Dashboard/",
-      codeLink: "https://github.com/TrevorBos/Weather-Dashboard"
+      codeLink: "https://github.com/TrevorBos/Weather-Dashboard",
+      title: "Weather Dashboard"
     },
     {
       id: 6,
       src: runBuddy,
       demoLink: "https://trevorbos.github.io/Run-Buddy-M1/",
-      codeLink: "https://github.com/TrevorBos/Run-Buddy-M1"
+      codeLink: "https://github.com/TrevorBos/Run-Buddy-M1",
+      title: "Run Buddy"
     },
   ];
 
@@ -60,13 +66,14 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, demoLink, codeLink }) => (
+          {portfolios.map(({ id, src, demoLink, codeLink, title }) => (
             <div key={id} className="shadow-md shadow-gray-800 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <p className="mt-4 text-center">{title}</p>
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a href={demoLink} target="_blank" rel="noreferrer">Demo</a>
