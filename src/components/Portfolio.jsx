@@ -4,47 +4,55 @@ import gitAJob from "../assets/portfolio/GitAJob.png";
 import runBuddy from "../assets/portfolio/runbuddyimg.png";
 import taskinator from "../assets/portfolio/Taskinator.png";
 import techBlog from "../assets/portfolio/techBlog.png";
+import globber from "../assets/portfolio/globber.png";
 import weatherDashboard from "../assets/portfolio/weatherDash.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: globber,
+      demoLink: "https://globber-chat-box.herokuapp.com/",
+      codeLink: "https://github.com/tarequem/globber",
+      title: "Globber"
+    },
+    {
+      id: 2,
       src: gitAJob,
       demoLink: "https://peaceful-reef-41407.herokuapp.com/",
       codeLink: "https://github.com/TrevorBos/Git-A-Job",
       title: "GitAJob"
     },
     {
-      id: 2,
+      id: 3,
       src: eatDrinkRelax,
       demoLink: "https://trevorbos.github.io/EatDrinkRelax/",
       codeLink: "https://github.com/TrevorBos/EatDrinkRelax",
       title: "Eat Drink Relax"
     },
     {
-      id: 3,
+      id: 4,
       src: techBlog,
       demoLink: "https://stark-ocean-65719.herokuapp.com/",
       codeLink: "https://github.com/TrevorBos/Tech-Blog",
       title: "Tech Blog"
     },
     {
-      id: 4,
+      id: 5,
       src: taskinator,
       demoLink: "https://trevorbos.github.io/Taskinator/",
       codeLink: "https://github.com/TrevorBos/Taskinator",
       title: "Taskinator"
     },
     {
-      id: 5,
+      id: 6,
       src: weatherDashboard,
       demoLink: "https://trevorbos.github.io/Weather-Dashboard/",
       codeLink: "https://github.com/TrevorBos/Weather-Dashboard",
       title: "Weather Dashboard"
     },
     {
-      id: 6,
+      id: 7,
       src: runBuddy,
       demoLink: "https://trevorbos.github.io/Run-Buddy-M1/",
       codeLink: "https://github.com/TrevorBos/Run-Buddy-M1",
